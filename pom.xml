@@ -21,4 +21,22 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <repositories>
+<repository>
+<id>maven-group</id>
+<url>http://35.187.84.181:8081/repository/maven-public/</url>
+</repository>
+</repositories>
+<distributionManagement>
+<snapshotRepository>
+<id>nexus-snapshots</id>
+<url>http://35.187.84.181:8081/repository/mavensnapshots/</
+url>
+</snapshotRepository>
+<repository>
+<id>nexus-releases</id>
+<url>http://35.187.84.181:8081/repository/mavenreleases/</
+url>
+</repository>
+</distributionManagement>
 </project>

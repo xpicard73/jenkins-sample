@@ -1,5 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <properties>
+  <sonar.projectKey>xpicard73_jenkins-sample</sonar.projectKey>
+  <sonar.organization>xpicard73</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>4d4793896f4a34fcf77ade9da0ac738e6c91320e</sonar.login>
+</properties>
   <modelVersion>4.0.0</modelVersion>
   <groupId>fr.orsys.samples</groupId>
   <artifactId>SampleProject</artifactId>

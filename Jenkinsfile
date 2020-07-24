@@ -27,5 +27,10 @@ A logic review is suggested.
 		step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: 'dedieu75@gmail.com', sendToIndividuals: false])
  
 	}
+	stage ('App-IC - Quality Analysis') {
+		withSonarQubeEnv('Sonar') {
+			bat 'mvn sonar:sonar'
+		}
+	}
 }
 }

@@ -10,7 +10,7 @@
   <groupId>fr.orsys.samples</groupId>
   <artifactId>SampleProject</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.8-SNAPSHOT</version>
   <name>SampleProject</name>
   <url>http://maven.apache.org</url>
   <dependencies>
